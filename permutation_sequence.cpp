@@ -18,7 +18,8 @@ class Solution {
 			int result = k/j;
 			int ys = k%j;
 			k = ys;
-			char tmp = '1';
+			char tmp = '0';
+			result++;
 			for(int i=1;i<=n;++i){
 				if(!flag[i-1] && result!=0){
 					result--;
